@@ -14,16 +14,16 @@ Fonts are separated by a | */
   --heading-font: "Noto serif";
   --paragraph-font: Quicksand;
 
-  /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  /* these colors below should be chosen from among your palette colors above (done) */
+  --headline-color-on-white: #0FA8A1;  /* headlines on a white background (done) */ 
+  --headline-color-on-color: #1A6073; /* headlines on a colored background (done) */ 
+  --paragraph-color-on-white: #780E0E; /* paragraph text on a white background (done) */ 
+  --paragraph-color-on-color: #780E0E; /* paragraph text on a colored background (done) */ 
+  --paragraph-background-color: #fcfcfc;
+  --nav-link-color: #780E0E;
+  --nav-background-color: #0FA8A1;
+  --nav-hover-link-color: #fcfcfc;
+  --nav-hover-background-color: #1A6073;
 }
 
 
