@@ -72,8 +72,18 @@ nav a:hover{
 
 .message-on-image{
     grid-column: 1/4;
-    grid-row: 3;
-    font-size: xx-large;
+    grid-row: 2;
+    font-size: 60px;
+}
+
+/* #image-under-topmsg{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+} */
+
+.house-with-couch{
+    grid-column: 2/4;
+    grid-row: 1;
 }
 
 main section{
