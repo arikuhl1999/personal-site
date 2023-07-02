@@ -145,3 +145,15 @@ footer img{
     width: 50px;
     padding-top: 15px;
 }
+
+@media screen and (max-width: 900px) {
+    /* #top-image, */
+
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+}
