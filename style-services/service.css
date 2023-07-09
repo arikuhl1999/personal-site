@@ -62,13 +62,34 @@ nav a:hover{
 
 #service-offer-image-img{
   width: 100%;
-  margin-top: -100px;
+  margin-top: -180px;
   z-index: -1;
   position: absolute;
 }
 
 #top-message{
   text-align: center;
+  color: #0FA8A1;
+  font-size:xx-large;
+}
+
+.message-on-image{
+  margin-top: 70px;
+  margin-bottom: 30px;
+  font-family: "Noto";
+  font-size: 40px;
+}
+
+h4{
+  color: #fcfcfc;
+  margin-top: 60px;
+  font-family: "Raleway";
+  font-size: 35px;
+}
+
+.paragraph{
+  text-align: center;
+  
 }
 
 /* main {
