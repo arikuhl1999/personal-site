@@ -74,7 +74,7 @@ nav a:hover{
 }
 
 .message-on-image{
-  margin-top: 70px;
+  margin-top: 150px;
   margin-bottom: 30px;
   font-family: "Noto";
   font-size: 40px;
@@ -89,7 +89,8 @@ h4{
 
 .paragraph{
   text-align: center;
-  
+  font-size: xx-large;
+  color: #780E0E;
 }
 
 /* main {
