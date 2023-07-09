@@ -147,11 +147,6 @@ h4{
   animation-duration: 1.5s;
 }
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
 footer{ 
   background-color: #780E0E;
   color: #fcfcfc;
@@ -188,3 +183,9 @@ footer img{
 
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+}
