@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Noto+Serif&family=Quicksand&family=Raleway:wght@100;400&family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Noto+Serif&family=Quicksand&family=Raleway:wght@100;400&family=Roboto+Mono:wght@100&display=swap');
 
 :root{
   --heading-font: "Lobster";
@@ -10,10 +10,14 @@
   margin: 0 auto;
 }
 
+body{
+  margin: 0;
+}
+
 header{
   background-color: rgba(0,0,0,0.5);
   color: #0EA57D;
-  display: grid;
+  /* display: grid; */
   grid-template-columns: 160px auto;
   font-family: "Raleway";
 }
@@ -51,7 +55,8 @@ nav a:hover{
 
 #Kuhlmann{
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   margin-top: -100px;
 }
 
@@ -67,8 +72,10 @@ nav a:hover{
   width: 100%;
 }
 
-
-
+#Kuhlmann-msg{
+  grid-column: 2/3;
+  grid-row: 2;
+}
 
 
 
@@ -104,4 +111,4 @@ footer img{
   margin: auto;
   width: 50px;
   padding-top: 15px;
-} */ 
+}
