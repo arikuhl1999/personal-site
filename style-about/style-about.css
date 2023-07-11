@@ -17,7 +17,7 @@ body{
 header{
   background-color: rgba(0,0,0,0.5);
   color: #0EA57D;
-  /* display: grid; */
+  display: grid;
   grid-template-columns: 160px auto;
   font-family: "Raleway";
 }
@@ -55,15 +55,15 @@ nav a:hover{
 
 #Kuhlmann{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr; */
   margin-top: -100px;
 }
 
 #Kuhlmann-box{
   grid-column: 1/4;
   grid-row: 1/3;
-  z-index: -1;
+  z-index: -1; 
 }
 
 #Kuhlmann-img{
@@ -74,7 +74,42 @@ nav a:hover{
 
 #Kuhlmann-msg{
   grid-column: 2/3;
-  grid-row: 2;
+  grid-row: 1;
+  font-size: 15px;
+  margin-top: 20%;
+  font-family: "raleway";
+  text-align: center;
+  /* margin-right: 25%; */
+  background-color: rgba(233, 233, 228, 0.911)
+}
+
+/* #about-the-company-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+} */
+
+.what-we-cleaned{
+  margin-left: 35px;
+  font-size: 30px;
+  margin-top: 5%;
+}
+
+h2{
+  margin-top: 25px;
+  text-align: center;
+  margin-left: 35px;
+  margin-top: 5%;
+}
+
+.about-the-owner{
+  text-align: left;
+  margin-left: 35px;
+  font-size: 30px;
+}
+
+p{
+  text-align: center;
+  font-size: 30px
 }
 
 
