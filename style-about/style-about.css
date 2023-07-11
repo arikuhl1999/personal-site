@@ -83,15 +83,17 @@ nav a:hover{
   background-color: rgba(233, 233, 228, 0.911)
 }
 
-/* #about-the-company-grid{
+#about-the-company-grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-} */
+  grid-template-rows: 1fr 1fr;
+}
 
 .what-we-cleaned{
   margin-left: 35px;
   font-size: 30px;
   margin-top: 5%;
+  grid-column: 2/4;
 }
 
 h2{
@@ -105,6 +107,8 @@ h2{
   text-align: left;
   margin-left: 35px;
   font-size: 30px;
+  grid-column: 2/4;
+  grid-row: 2;
 }
 
 p{
