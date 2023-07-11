@@ -103,7 +103,8 @@ nav a:hover{
 
 .about-owner-paragraph{
   text-align: right;
-  
+  grid-column: 2/4;
+  grid-row: 2;
 }
 
 /* 
