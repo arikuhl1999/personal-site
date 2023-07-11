@@ -96,6 +96,27 @@ nav a:hover{
   grid-column: 2/4;
 }
 
+.cleaned-paragraph{
+  text-align: right;
+  /* padding: ; */
+}
+
+.about-owner-paragraph{
+  text-align: right;
+  
+}
+
+/* 
+.cleaned-before-para{
+  grid-row: 2;
+  grid-column: ;
+} */
+
+/* img{
+  grid-column: 1;
+
+}
+
 h2{
   margin-top: 25px;
   text-align: center;
@@ -114,7 +135,7 @@ h2{
 p{
   text-align: center;
   font-size: 30px
-}
+} */
 
 
 
