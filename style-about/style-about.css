@@ -14,6 +14,13 @@ body{
   margin: 0;
 }
 
+h2{
+  margin-top: 25px;
+  text-align: center;
+  margin-left: 35px;
+  margin-top: 5%;
+}
+
 header{
   background-color: rgba(0,0,0,0.5);
   color: #0EA57D;
@@ -86,57 +93,64 @@ nav a:hover{
 #about-the-company-grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr; */
 }
+
+#images{
+  grid-column: 1/2;
+  text-align: center;
+  align-self: center;
+}
+
+.living-room {
+  width: 100%;
+}
+
+
+#about-comp-text {
+  grid-column: 2/3;
+  grid-row: 1;
+  align-self: center;
+  padding: 0 10px;
+}
+
+#about-comp-text h2{
+  font-size: 3.5em;
+}
+
+#about-comp-text p{
+  font-size: 2em;
+}
+
 
 .what-we-cleaned{
   margin-left: 35px;
-  font-size: 30px;
   margin-top: 5%;
   grid-column: 2/4;
 }
 
 .cleaned-paragraph{
-  text-align: right;
-  /* padding: ; */
+  text-align: center;
 }
 
 .about-owner-paragraph{
-  text-align: right;
+  text-align: center;
   grid-column: 2/4;
   grid-row: 2;
 }
 
-/* 
-.cleaned-before-para{
-  grid-row: 2;
-  grid-column: ;
-} */
 
-/* img{
-  grid-column: 1;
 
-}
-
-h2{
-  margin-top: 25px;
+.owner{
+  grid-column: 3/4;
   text-align: center;
-  margin-left: 35px;
-  margin-top: 5%;
+  align-self: center;
+  margin-top: 20px;
 }
 
-.about-the-owner{
-  text-align: left;
-  margin-left: 35px;
-  font-size: 30px;
-  grid-column: 2/4;
-  grid-row: 2;
+.dad-and-mum-pic{
+  width: 100%;
 }
-
-p{
-  text-align: center;
-  font-size: 30px
-} */
 
 
 
@@ -173,3 +187,9 @@ footer img{
   width: 50px;
   padding-top: 15px;
 }
+
+/* @media only screen and (max-width: 300px) {
+  #Kuhlmann-msg{
+    display: ;
+  }
+} */
