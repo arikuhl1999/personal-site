@@ -86,6 +86,7 @@ nav a:hover{
   margin-top: 20%;
   font-family: "raleway";
   text-align: center;
+  color: #1A6073;
   /* margin-right: 25%; */
   background-color: rgba(233, 233, 228, 0.911)
 }
@@ -127,16 +128,19 @@ nav a:hover{
   margin-left: 35px;
   margin-top: 5%;
   grid-column: 2/4;
+  color: #780E0E;
 }
 
 .cleaned-paragraph{
   text-align: center;
+  color: #1A6073;
 }
 
 .about-owner-paragraph{
   text-align: center;
   grid-column: 2/4;
   grid-row: 2;
+  color: #780E0E;
 }
 
 
